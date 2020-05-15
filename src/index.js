@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
+import Chart from "./Chart";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+      <>
+          <Chart/>
+          {/*<ReChartChart/>*/}
+      </>
   </React.StrictMode>,
   document.getElementById('root')
 );
